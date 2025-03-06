@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(25, 38, 25);
+}
+
+.game {
+
+    background-color: black;
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    padding: 20px 10px;
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+
+}
+
+.container {
+    background-color: rgba(158, 152, 152, 0.126);
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.254);
+    padding: 2px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(128, 128, 128, 0.556);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 150px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.square:hover {
+    background-color: black;
+}
+
+span {
+    color: yellow;
+}
